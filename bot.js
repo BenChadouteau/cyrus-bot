@@ -11,7 +11,7 @@ client.on('message', msg => {
   }
 });
 
-client.login('NjQwMjE3MDc3NzY0MDYzMjMy.Xb2m8Q.MmI_86FHq5QhQYiUhbTRPUdoW8g');
+client.login(process.env.BOT_TOKEN);
 
 // url
 // https://discordapp.com/api/oauth2/authorize?client_id=640217077764063232&scope=bot&permissions=8
