@@ -1,0 +1,15 @@
+{
+  "name": "cyrus-bot",
+  "version": "0.0.1",
+  "description": "Discord bot for heritage-cyrus Conan Exiles server",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.js"
+  },
+  "author": "Benjamin Chadouteau",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^11.5.1"
+  }
+}
