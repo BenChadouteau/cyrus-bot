@@ -12,6 +12,3 @@ client.on('message', msg => {
 });
 
 client.login(process.env.BOT_TOKEN);
-
-// url
-// https://discordapp.com/api/oauth2/authorize?client_id=640217077764063232&scope=bot&permissions=8
