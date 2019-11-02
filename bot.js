@@ -7,7 +7,12 @@ client.on('ready', () => {
 
 client.on('message', msg => {
   if (msg.content === 'ping') {
-    msg.reply('Pong!');
+    const embed = new Discord.RichEmbed()
+      .setTitle('Pong!')
+      .setColor(0xFF0000)
+      .setDescription('BOOM IT\'S A PONG!');
+    msg.channel.send(embed);
+    //msg.reply('Pong!');
   }
 });
 
